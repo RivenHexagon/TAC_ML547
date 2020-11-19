@@ -177,18 +177,6 @@ Text Notes 2500 1950 0    50   ~ 0
 8
 Text Notes 2550 1750 0    50   ~ 0
 7
-Text Notes 3150 4650 0    50   ~ 0
-10
-Text Notes 3050 4650 0    50   ~ 0
-9
-Text Notes 2500 3950 0    50   ~ 0
-5
-Text Notes 2500 3750 0    50   ~ 0
-6
-Text Notes 2550 4850 0    50   ~ 0
-1
-Text Notes 2550 4650 0    50   ~ 0
-2
 Wire Wire Line
 	1900 2850 3150 2850
 Wire Wire Line
@@ -230,4 +218,10 @@ Wire Wire Line
 	3050 3750 3250 3750
 Wire Wire Line
 	3150 4750 3250 4750
+Wire Wire Line
+	3250 4850 3100 4850
+Wire Wire Line
+	3100 4850 3100 3650
+Wire Wire Line
+	3100 3650 3250 3650
 $EndSCHEMATC
