@@ -97,7 +97,7 @@ L
 Wire Wire Line
 	3250 4850 3150 4850
 Wire Wire Line
-	3050 3650 3050 4950
+	3050 3750 3050 4950
 Wire Wire Line
 	3050 4950 3250 4950
 Wire Wire Line
@@ -210,8 +210,6 @@ Wire Wire Line
 Wire Wire Line
 	3150 3550 3150 4850
 Wire Wire Line
-	3050 3650 3250 3650
-Wire Wire Line
 	3150 3550 3250 3550
 Wire Wire Line
 	2950 4450 3250 4450
@@ -230,4 +228,6 @@ Wire Wire Line
 	2950 3750 2950 3950
 Wire Wire Line
 	2950 3950 3250 3950
+Wire Wire Line
+	3050 3750 3250 3750
 $EndSCHEMATC
