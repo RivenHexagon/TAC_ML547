@@ -80,22 +80,20 @@ F 3 "~" H 1700 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J1
+L Connector_Generic:Conn_01x03 J1
 U 1 1 5FB2386E
 P 3450 4850
 F 0 "J1" H 3400 4650 50  0000 L CNN
 F 1 "Direct Out" H 3550 4650 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3450 4850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3450 4850 50  0001 C CNN
 F 3 "~" H 3450 4850 50  0001 C CNN
 	1    3450 4850
 	1    0    0    -1  
 $EndComp
-Text Notes 3550 4900 0    50   ~ 0
+Text Notes 3550 4800 0    50   ~ 0
 R
 Text Notes 3550 5000 0    50   ~ 0
 L
-Wire Wire Line
-	3250 4850 3150 4850
 Wire Wire Line
 	3050 3750 3050 4950
 Wire Wire Line
@@ -208,7 +206,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 1850 3250 1850
 Wire Wire Line
-	3150 3550 3150 4850
+	3150 3550 3150 4750
 Wire Wire Line
 	3150 3550 3250 3550
 Wire Wire Line
@@ -230,4 +228,6 @@ Wire Wire Line
 	2950 3950 3250 3950
 Wire Wire Line
 	3050 3750 3250 3750
+Wire Wire Line
+	3150 4750 3250 4750
 $EndSCHEMATC
