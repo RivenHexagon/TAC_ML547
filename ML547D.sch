@@ -16,24 +16,13 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_01x10 J3
 U 1 1 5FB17876
-P 3450 2050
-F 0 "J3" H 3400 1450 50  0000 L CNN
-F 1 "Ribbon" H 3550 1450 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-10A_1x10_P2.54mm_Vertical" H 3450 2050 50  0001 C CNN
-F 3 "~" H 3450 2050 50  0001 C CNN
-	1    3450 2050
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x10 J2
-U 1 1 5FB1AD9E
-P 3450 4050
-F 0 "J2" H 3400 3450 50  0000 L CNN
-F 1 "Ribbon" H 3550 3450 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-10A_1x10_P2.54mm_Vertical" H 3450 4050 50  0001 C CNN
-F 3 "~" H 3450 4050 50  0001 C CNN
-	1    3450 4050
-	1    0    0    1   
+P 3450 1950
+F 0 "J3" H 3400 1350 50  0000 L CNN
+F 1 "Ribbon" H 3550 1350 50  0000 L CNN
+F 2 "ML547D:Molex_KK-254_AE-6410-10A_1x10_P2.54mm_Vertical_reversed" H 3450 1950 50  0001 C CNN
+F 3 "~" H 3450 1950 50  0001 C CNN
+	1    3450 1950
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:AudioJack3_Switch J4
@@ -169,14 +158,6 @@ Wire Wire Line
 	1900 1750 3050 1750
 Wire Wire Line
 	3050 1750 3050 1850
-Text Notes 2600 2650 0    50   ~ 0
-3
-Text Notes 2650 2850 0    50   ~ 0
-4
-Text Notes 2500 1950 0    50   ~ 0
-8
-Text Notes 2550 1750 0    50   ~ 0
-7
 Wire Wire Line
 	1900 2850 3150 2850
 Wire Wire Line
@@ -202,12 +183,9 @@ Wire Wire Line
 Wire Wire Line
 	2850 4350 3250 4350
 Wire Wire Line
-	2000 3950 2850 3950
-Wire Wire Line
 	2850 3950 2850 4050
 Wire Wire Line
 	2850 4050 3250 4050
-Connection ~ 2000 3950
 Wire Wire Line
 	1900 3750 2950 3750
 Wire Wire Line
@@ -224,4 +202,18 @@ Wire Wire Line
 	3100 4850 3100 3650
 Wire Wire Line
 	3100 3650 3250 3650
+$Comp
+L Connector_Generic:Conn_01x10 J2
+U 1 1 5FB1AD9E
+P 3450 3950
+F 0 "J2" H 3400 3350 50  0000 L CNN
+F 1 "Ribbon" H 3550 3350 50  0000 L CNN
+F 2 "ML547D:Molex_KK-254_AE-6410-10A_1x10_P2.54mm_Vertical_reversed" H 3450 3950 50  0001 C CNN
+F 3 "~" H 3450 3950 50  0001 C CNN
+	1    3450 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 2000 3950
+Wire Wire Line
+	2000 3950 2850 3950
 $EndSCHEMATC

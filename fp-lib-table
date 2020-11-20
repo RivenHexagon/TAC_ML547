@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ML547D)(type KiCad)(uri ${KIPRJMOD}/ML547D.pretty)(options "")(descr ""))
+)
